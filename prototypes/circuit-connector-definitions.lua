@@ -44,3 +44,28 @@ circuit_connector_definitions["py-valves"] = {
         sprites = _G.circuit_connector_definitions["inserter"][4].sprites,
     }
 }
+
+circuit_connector_definitions["py-shed"] = circuit_connector_definitions.create_single
+(
+  universal_connector_template,
+  { variation = 26, main_offset = util.by_pixel(17, 4), shadow_offset = util.by_pixel(14, 14), show_shadow = false }
+)
+
+circuit_connector_definitions["py-storehouse"] = circuit_connector_definitions.create_single
+(
+  universal_connector_template,
+  { variation = 26, main_offset = util.by_pixel(27, 44), shadow_offset = util.by_pixel(24, 44), show_shadow = false }
+)
+
+circuit_connector_definitions["py-warehouse"] = circuit_connector_definitions.create_single
+(
+  universal_connector_template,
+  { variation = 26, main_offset = util.by_pixel(56, 32), shadow_offset = util.by_pixel(53, 42), show_shadow = false }
+)
+
+circuit_connector_definitions["py-deposit"] = circuit_connector_definitions.create_single
+(
+  universal_connector_template,
+  { variation = 6, main_offset = util.by_pixel(-90, 131), shadow_offset = util.by_pixel(-93, 121), show_shadow = false }
+)
+

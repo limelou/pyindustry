@@ -121,7 +121,7 @@ local function define_warehouse(name, logistics_name)
             },
             circuit_wire_max_distance = 9,
             -- circuit_connector_sprites = connectors.sprites({0, -2.4}),
-            circuit_connector = { points = connectors.points{-0.11, -2.82} },
+            circuit_connector = circuit_connector_definitions["py-warehouse"]
         }
 
     if logistics_name then
